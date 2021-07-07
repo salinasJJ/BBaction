@@ -12,8 +12,8 @@ BB-Action is a Tensorflow 2 training pipeline for video classification. The aim 
 
   1. Clone the repositories:
   ```
-  git clone https://github.com/BBsjj/BBaction.git 
-  git clone https://github.com/BBsjj/BBdata.git
+  git clone https://github.com/salinasJJ/BBaction.git 
+  git clone https://github.com/salinasJJ/BBdata.git
   ```
   2. Create a virtual environment (using Pipenv or Conda for example).
 
