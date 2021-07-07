@@ -10,32 +10,29 @@ BB-Action is a Tensorflow 2 training pipeline for video classification. The aim 
 
 ## Installation
 
-  1. Create a directory (i.e. BBaction) to clone this repository into:
+  1. Clone the repositories:
   ```
-  git clone https://github.com/bb-repo/bbaction.git PATH/TO/BBaction/ 
+  git clone https://github.com/BB-Repos/BBaction.git 
+  git clone https://github.com/BB-Repos/BBdata.git
   ```
-  2. Create a directory (i.e. BBdata) to clone bbdata into:
-  ```
-  git clone https://github.com/bb-repo/bbdata.git PATH/TO/BBdata/
-  ```
-  3. Create a virtual environment (using Pipenv or Conda for example).
+  2. Create a virtual environment (using Pipenv or Conda for example).
 
-  4. Install the projects onto your system:
+  3. Install the projects onto your system:
   ```
-  pip install -e /PATH/TO/BBaction
-  pip install -e /PATH/TO/BBdata
+  pip install -e BBaction
+  pip install -e BBdata
   ```
-  5. Using apt, install:         
+  4. Using apt, install the following:         
   ```
   apt install parallel
   apt install ffmpeg
   apt install aria2c
   ```                                                                   
-  6. Install dependencies:
+  5. Install dependencies:
   ```
   pip install -r BBaction/bbaction/requirements.txt
   ```
-  7. Make scripts executable: 
+  6. Make scripts executable: 
   ```
   chmod +x BBdata/bbdata/download/scripts/data.sh         
   chmod +x BBdata/bbdata/download/scripts/setup.sh         
